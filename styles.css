@@ -5,11 +5,21 @@ body {
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 30px;
+}
+p {
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+}
 .color {
     color: goldenrod;
 }
 .top-banner {
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .container {
     width: 50%;
@@ -27,4 +37,43 @@ color: white;
     width: 80%;
     margin-left: 40px;
     padding: 20px;
+}
+.dream_big {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+}
+.experience_area h1{
+  margin-left: 5%;
+}
+.experience_items {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.item {
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 1% 3% 3% 3%;
+    box-shadow: 10px 10px 20px gray;
+    
+}
+#card1 {
+    border-left: 6px solid;
+    border-image-source: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#card2{
+    border-left: 6px solid;
+    border-image-source: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    margin-right: 5%;
+}
+.copyright {
+    margin: 5%;
+    text-align: center;
 }
